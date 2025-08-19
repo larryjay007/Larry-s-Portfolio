@@ -1,0 +1,71 @@
+SMART CONTRACT DEVELOPER PORTFOLIO - SETUP INSTRUCTIONS
+
+STEP 1: PERSONAL INFO
+- Open Portfolio.js file
+- Find lines around 30-33
+- Change these variables:
+  myemail = 'your-email@gmail.com'
+  myname = 'Your Full Name'  
+  acronym = 'YN' (your initials)
+
+STEP 2: PROFILE IMAGE
+- Add your photo to src/assets/ folder
+- Rename it to avatar.jpg (or avatar.png)
+- Update line 3: import image from './assets/avatar.jpg'
+
+STEP 3: HTML TITLE
+- Open /index.html
+- Change <title> to: Your Name - Smart Contract Developer
+- Add your favicon if you have one
+
+STEP 4: SKILLS
+- Find skills array around line 120
+- Change skill names and levels (0-100%)
+- Add or remove skills as needed
+
+STEP 5: PROJECTS
+- Find projects array around line 75
+- Replace with your actual projects
+- Update title, description, tech stack, features
+- Change github links to your repos
+- Set status: "Live on Mainnet", "In Development", or "Audited"
+
+STEP 6: ABOUT ME
+- Find about section around line 180
+- Rewrite the two paragraphs about yourself
+- Update the statistics (number of contracts, DApps, etc.)
+
+STEP 7: SOCIAL LINKS
+Three places to update:
+
+A) Hero section (around line 160):
+   - GitHub: https://github.com/yourusername
+   - LinkedIn: https://linkedin.com/in/yourprofile  
+   - Twitter: https://twitter.com/yourhandle
+
+B) Contact section (around line 340):
+   - Update email display
+   - Update @yourgithubhandle
+   - Update in/yourlinkedinprofile
+
+C) Projects section (around line 290):
+   - Update GitHub repo links for each project
+
+STEP 8: EMAIL SETUP
+- The contact form will use the email you set in myemail
+- No additional setup needed
+
+STEP 9: RUN PROJECT
+- npm install
+- npm start
+- Check everything looks correct
+
+STEP 10: DEPLOY
+- npm run build
+- Upload build folder to Netlify, Vercel, or GitHub Pages
+
+NOTES:
+- Services section is good as-is for most developers
+- Dark/light mode toggle works automatically
+- Contact form works on mobile and desktop
+- Make sure all links work before deploying
