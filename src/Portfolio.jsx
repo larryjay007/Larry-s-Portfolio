@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Mail, Code, Shield, Zap, Users, CheckCircle, ArrowRight, Menu, Sun, Moon, X } from 'lucide-react';
-import image from './assets/lanre.jpg';
+import image from './assets/Lanre.jpg';
 import { toast } from 'sonner'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {  FaXTwitter } from 'react-icons/fa6';
