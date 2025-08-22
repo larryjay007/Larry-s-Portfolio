@@ -152,31 +152,13 @@ const Portfolio = () => {
 
     const projects = [
         {
-            title: "DeFi Yield Farming Protocol",
-            description: "Built a smart contract system for automated yield farming with multi-token support and compound rewards.",
-            tech: ["Solidity", "OpenZeppelin", "Hardhat", "Ethers.js"],
-            features: ["Auto-compounding rewards", "Multi-token staking", "Emergency withdraw", "Time-locked contracts"],
+            title: "Purple Collectibles (Purple NFT)",
+            description: "A capstone project where my team and I created and deployed an Omnichain NFT smart contract. The project allows NFT minting across chains with seamless interaction..",
+            tech: ["Solidity", "OpenZeppelin", "Hardhat", "Ethers.js", "LayerZero/CCIP", "IPFS", "MetaMask"],
+            features: ["Wallet Connection", "NFT Minting Interface", "Minted Items Display", "Transaction Feedback", "Responsive Frontend"],
             github: "https://github.com",
-            demo: "https://demo.com",
-            status: "Live on Mainnet"
-        },
-        {
-            title: "NFT Marketplace Contract",
-            description: "Developed a gas-optimized NFT marketplace with royalty distribution and batch minting capabilities.",
-            tech: ["Solidity", "ERC-721", "IPFS", "React"],
-            features: ["Royalty management", "Batch operations", "Lazy minting", "Upgradeable proxy"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "In Development"
-        },
-        {
-            title: "Multi-Sig Wallet System",
-            description: "Created a secure multi-signature wallet with role-based access and transaction queuing system.",
-            tech: ["Solidity", "Gnosis Safe", "Web3.js", "TypeScript"],
-            features: ["M-of-N signatures", "Role management", "Transaction queuing", "Gas optimization"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "Audited"
+            demo: "https://purple-nft.vercel.app/",
+            status: "Auditing pending"
         },
         {   title: "Storage Smart Contract",
             description: "A basic Solidity Smart Contract that stores and retrieves an unsigned integer values on the Ethereum blockchain.",
@@ -208,9 +190,9 @@ const Portfolio = () => {
         { name: "Solidity", level: 85, category: "Smart Contracts" },
         { name: "Hardhat/Foundry", level: 80, category: "Development" },
         { name: "Web3.js/Ethers.js", level: 90, category: "Integration" },
-        { name: "OpenZeppelin", level: 85, category: "Security" },
-        { name: "React/Next.js", level: 88, category: "Frontend" },
-        { name: "Node.js", level: 82, category: "Backend" }
+        { name: "OpenZeppelin", level: 70, category: "Security" },
+        { name: "React/Next.js", level: 80, category: "Frontend" },
+        { name: "Node.js", level: 80, category: "Backend" }
     ];
 
     const services = [
@@ -321,10 +303,10 @@ const Portfolio = () => {
 
                         <h1 className=" font-bold mb-6 tracking-tight">
                             <h1 className='text-4xl md:text-5xl'>{myname} </h1>
-                            <span className="block mt-2 text-3xl "> Smart Contract Developer</span>
+                            <span className="block mt-2 text-3xl "> Smart Contract Developer | Web3 & Blockchain Enthusiast</span>
                         </h1>
                         <p className={`text-xl md:text-2xl mb-12 ${textSecondary} max-w-3xl mx-auto leading-relaxed`}>
-                            Building the future of decentralized applications with secure, efficient smart contracts that power Web3 innovation
+                          Passionate about shaping the future of Web3 through secure, scalable, and innovative smart contracts.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
@@ -393,7 +375,7 @@ const Portfolio = () => {
 
                                 <div className="grid grid-cols-2 gap-8">
                                     <div className="text-center">
-                                        <div className={`text-4xl font-bold ${textPrimary} mb-2`}>5+</div>
+                                        <div className={`text-4xl font-bold ${textPrimary} mb-2`}>4+</div>
                                         <div className={`${textMuted} font-medium`}>Smart Contracts</div>
                                     </div>
                                     <div className="text-center">
@@ -405,7 +387,7 @@ const Portfolio = () => {
                                         <div className={`${textMuted} font-medium`}>TVL Managed</div>
                                     </div> */}
                                     <div className="text-center">
-                                        <div className={`text-4xl font-bold ${textPrimary} mb-2`}>100%</div>
+                                        <div className={`text-4xl font-bold ${textPrimary} mb-2`}>Pending</div>
                                         <div className={`${textMuted} font-medium`}>Audit Success</div>
                                     </div>
                                 </div>
